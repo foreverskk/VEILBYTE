@@ -1,0 +1,46 @@
+.startup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.startup .VB_TEXT {
+    font-size: 120px;
+    letter-spacing: 25px;
+    opacity: 0%;
+    transform: translateY(100px);
+    transition: ease-out 0.3s;
+    animation: VEILBYTE_anim_startup_header 1.25s ease-out forwards;
+}
+
+.startup .coming-soon {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    gap: 5px;
+    animation: VEILBYTE_anim_startup_header 1.25s ease-out forwards;
+}
+
+.startup .coming-soon .VB_COMING_SOON {
+    text-align: left;
+    letter-spacing: 5px;
+}
+
+.startup .coming-soon .VB_DATE {
+    text-align: left;
+    letter-spacing: 5px;
+}
+
+@keyframes VEILBYTE_anim_startup_header {
+    0% {
+        opacity: 0%;
+        transform: translateY(100px);
+    }
+
+    100% {
+        opacity: 100%;
+        transform: translateY(0px);
+    }
+}
