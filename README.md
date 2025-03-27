@@ -1,5 +1,3 @@
-VEILBYTE - Source Code Agreement
-
 # VEILBYTE Source Code License Agreement
 
 **Copyright (c) [2025] [VEILBYTE Studios]**
