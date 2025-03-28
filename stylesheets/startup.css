@@ -33,7 +33,7 @@
 @media screen and (max-width: 768px) {
 
     .startup {
-        flex-direction: collumn;
+        flex-direction: column; /* did a little typo.. */
     }
     
     .startup .VB_TEXT {
@@ -50,7 +50,7 @@
 @media screen and (max-width: 480px) {
 
     .startup {
-        flex-direction: collumn;
+        flex-direction: column; /* copy-pasted the little typo.. */
     }
     
     .startup .VB_TEXT {
