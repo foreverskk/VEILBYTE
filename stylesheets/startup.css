@@ -32,9 +32,7 @@
 
 @media screen and (max-width: 768px) {
 
-    .startup {
-        flex-direction: column; /* did a little typo.. */
-    }
+    /* removed a useless line here */
     
     .startup .VB_TEXT {
         font-size: 10vw;
@@ -49,9 +47,7 @@
 
 @media screen and (max-width: 480px) {
 
-    .startup {
-        flex-direction: column; /* copy-pasted the little typo.. */
-    }
+    /* removed a useless line here */
     
     .startup .VB_TEXT {
         font-size: 12vw;
