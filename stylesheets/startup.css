@@ -6,8 +6,8 @@
 }
 
 .startup .VB_TEXT {
-    font-size: 120px;
-    letter-spacing: 25px;
+    font-size: 8vw;
+    letter-spacing: 2vw;
     opacity: 0%;
     transform: translateY(100px);
     transition: ease-out 0.3s;
@@ -23,14 +23,36 @@
     animation: VEILBYTE_anim_startup_header 1.25s ease-out forwards;
 }
 
-.startup .coming-soon .VB_COMING_SOON {
+.startup .coming-soon .VB_COMING_SOON,
+.startup .coming-soon .VB_DATE {
+    font-size: 1vw;
+    letter-spacing: 0.5vw;
     text-align: left;
-    letter-spacing: 5px;
 }
 
-.startup .coming-soon .VB_DATE {
-    text-align: left;
-    letter-spacing: 5px;
+@media screen and (max-width: 768px) {
+    .startup .VB_TEXT {
+        font-size: 10vw;
+        letter-spacing: 1.5vw;
+    }
+
+    .startup .coming-soon .VB_COMING_SOON,
+    .startup .coming-soon .VB_DATE {
+        font-size: 1vw;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .startup .VB_TEXT {
+        font-size: 12vw;
+        letter-spacing: 1vw;
+    }
+
+    .startup .coming-soon .VB_COMING_SOON,
+    .startup .coming-soon .VB_DATE {
+        font-size: 1vw;
+        letter-spacing: 0.5vw;
+    }
 }
 
 @keyframes VEILBYTE_anim_startup_header {
